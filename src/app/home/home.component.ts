@@ -7,9 +7,14 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  constructor() { }
+  newName: string = "";
+  errorMessage: string;
+  names: any[] = [];
+
+  constructor(public nameListService:NameListService) { }
 
   ngOnInit() {
+    this.getNames();
   }
 
 }
