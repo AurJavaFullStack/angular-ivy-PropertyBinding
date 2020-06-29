@@ -7,7 +7,6 @@ import {routes} from './app.routes';
 import { FormsModule } from '@angular/forms';
 
 import { AppComponent } from './app.component';
-import { HelloComponent } from './hello.component';
 import { AboutModule } from './about/about.module';
 import { HomeModule } from './home/home.module';
 import { MoviesModule } from './movies/movies.module';
