@@ -1,9 +1,9 @@
 import { Route} from '@angular/router';
 import { MoviesComponent} from './index';
 
-export const HomeRoutes: Route[] = [
+export const MoviesRoutes: Route[] = [
   {
-    path:'',
+    path:'movies',
     component: MoviesComponent
   }
 ];
